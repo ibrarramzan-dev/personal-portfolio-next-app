@@ -30,7 +30,10 @@ const Footer = () => {
           <FaTelegram className={style.icon} />
         </Link>
       </div>
-      <Link href="mailto:trevorpowell1@yahoo.com">
+      <Link
+        href="mailto:trevorpowell1@yahoo.com"
+        style={{ textDecoration: "none" }}
+      >
         <div className={style.shoot}>
           <span>SHOOT ME A MAIL</span>
           <MdAttachEmail />
