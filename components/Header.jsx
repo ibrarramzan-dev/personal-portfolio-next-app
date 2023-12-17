@@ -22,7 +22,7 @@ function Header() {
     <>
       <div className={style.header}>
         <div className={style.innermenu}>
-          <Link href={"/"}>
+          <Link href="/">
             <Image className={style.img} src={img} alt="" />
           </Link>
           <div>
