@@ -10,22 +10,38 @@ const Footer = () => {
     <div className={style.footer}>
       <h1>CONNECT WITH ME</h1>
       <div className={style.links}>
-        <Link className={style.social} href="https://github.com/DclMonster">
+        <Link
+          className={style.social}
+          href="https://github.com/DclMonster"
+          target="_blank"
+        >
           <span>Github</span>
           <FaGithub className={style.icon} />
         </Link>
+
         <Link
           className={style.social}
           href="https://www.linkedin.com/in/trevor-powell-19945a255/"
+          target="_blank"
         >
           <span>LinkedIn</span>
           <FaLinkedin className={style.icon} />
         </Link>
-        <Link className={style.social} href="https://google.com/">
+
+        <Link
+          className={style.social}
+          href="https://google.com/"
+          target="_blank"
+        >
           <span>Twitter</span>
           <BsTwitterX className={style.icon} />
         </Link>
-        <Link className={style.social} href="https://google.com/">
+
+        <Link
+          className={style.social}
+          href="https://google.com/"
+          target="_blank"
+        >
           <span>Telegram</span>
           <FaTelegram className={style.icon} />
         </Link>

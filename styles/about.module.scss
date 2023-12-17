@@ -4,6 +4,7 @@
   color: $lgreen;
   font-size: 4rem;
   margin-top: 3rem;
+  font-family: font;
   text-align: center;
 }
 .background {
@@ -23,5 +24,11 @@
     padding: 1rem;
     border: 3px solid $lgreen;
     box-shadow: 15px 15px $lgreen;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .backgroundHeading {
+    font-size: 2.5rem;
   }
 }
