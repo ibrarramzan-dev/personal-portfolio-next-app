@@ -1,0 +1,26 @@
+{
+  "name": "personal-portfolio-next-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "file-loader": "^6.2.0",
+    "framer-motion": "^10.16.16",
+    "hamburger-react": "^2.5.0",
+    "next": "14.0.4",
+    "next-videos": "^1.4.1",
+    "react": "^18.2.0",
+    "react-dom": "^18",
+    "react-icons": "^4.12.0",
+    "sass": "^1.69.5"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.0.4"
+  }
+}

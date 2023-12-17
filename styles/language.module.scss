@@ -1,0 +1,108 @@
+@import "./utils";
+
+.technology {
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.664);
+  box-shadow: rgba(0, 0, 0, 0.932) 0px 22px 70px 4px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding-top: 2.2rem;
+  padding-bottom: 2.7rem;
+  h2 {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: $bg;
+    border-radius: 10px;
+    font-size: 2rem;
+    font-family: font;
+    letter-spacing: 2px;
+    border: 3px solid $lgreen;
+    color: $lgreen;
+  }
+  .tech {
+    background-color: $lgreen;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-top: 0.45rem;
+    font-family: font;
+    letter-spacing: 2px;
+    color: white;
+    @include flexer(row, center);
+    width: 50vw;
+    gap: 1.8rem;
+    flex-wrap: wrap;
+
+    > div {
+      background: $bg;
+      padding: 0.7rem 1rem;
+      gap: 5px;
+      border-radius: 10px;
+      width: 7rem;
+      font-size: larger;
+      @include flexer(row, space-between, center);
+
+      .icons {
+        color: $lgreen;
+        text-align: center;
+        font-size: 2rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .technology {
+    .tech {
+      padding: 1.5rem;
+      @include flexer(row, center);
+      width: 60vw;
+      gap: 1.4rem;
+      flex-wrap: wrap;
+
+      > div {
+        background: $bg;
+        padding: 0.7rem 1rem;
+        gap: 5px;
+        border-radius: 10px;
+        width: 7rem;
+        font-size: larger;
+        @include flexer(row, space-between, center);
+
+        .icons {
+          color: $lgreen;
+          text-align: center;
+          font-size: 2rem;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .technology {
+    .tech {
+      width: 65vw;
+      gap: 1.2rem;
+    }
+  }
+}
+@media screen and (max-width: 425px) {
+  .technology {
+    .tech {
+      width: 90vw;
+      gap: 0.8rem;
+    }
+  }
+}
+@media screen and (max-width: 320px) {
+  .technology {
+    .tech {
+      width: 100vw;
+      gap: 0.8rem;
+    }
+  }
+}

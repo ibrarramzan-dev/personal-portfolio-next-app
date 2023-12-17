@@ -1,0 +1,128 @@
+@import "./utils";
+
+.quote {
+  height: 90vh;
+  width: 100vw;
+  @include flexer(center);
+  background: rgba(0, 0, 0, 0.664);
+  box-shadow: rgba(0, 0, 0, 0.932) 0px 22px 70px 4px;
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+  .box {
+    border: 3px solid $lgreen;
+    border-radius: 20px;
+    color: white;
+    font-family: font;
+    padding: 0rem 8rem;
+    font-size: 3.5rem;
+    background-color: rgba(0, 0, 0, 0.158);
+
+    .iconleft {
+      position: relative;
+      top: -30px;
+      right: 90px;
+      color: $lgreen;
+    }
+    .iconright {
+      top: 42px;
+      color: $lgreen;
+      position: relative;
+      left: 590px;
+    }
+  }
+}
+
+@media screen and (max-width:810px) {
+  .quote{
+    .box{
+      padding: 0rem 4rem;
+      .iconleft{
+        right: 40px;
+      }
+      .iconright{
+        left: 550px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .quote {
+    .box {
+      padding: 0rem 4rem;
+      .iconleft {
+        right: 30px;
+      }
+      .iconright {
+        left: 530px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 700px) and (min-width:426px) {
+  .iconleft{
+    display: none;
+  }
+  .iconright{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .quote {
+    .box {
+      width: 70%;
+      padding: 0rem 1rem;
+      font-size: 3rem;
+      .iconleft {
+        right: 0px;
+      }
+      .iconright {
+        left: 220px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .quote {
+    height: fit-content;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    .box {
+      width: 80%;
+      padding: 0rem 0.7rem;
+      text-align: center;
+      font-size: 2rem;
+      .iconleft {
+        right: 125px;
+        top: 6px;
+      }
+      .iconright {
+        top: -5px;
+        left: 125px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .quote {
+    .box {
+      width: 80%;
+      padding: 0rem 0.7rem;
+      text-align: center;
+      font-size: 2rem;
+      .iconleft {
+        right: 100px;
+        top: 5px;
+      }
+      .iconright {
+        top: 0px;
+        left: 100px;
+      }
+    }
+  }
+}
