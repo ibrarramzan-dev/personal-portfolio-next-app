@@ -48,7 +48,7 @@ const Home = () => {
             A <span>Frontend Engineer.</span> I Help Startups{" "}
             <span>Launch</span> And <span>Grow</span> Their Products.
           </h1>
-          <p>
+          <p style={{ marginTop: "0.3rem" }}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo enim
             nobis ad laboriosam sit architecto corporis nostrum. Iusto fugiat
             dolorem reprehenderit veritatis aliquid. Recusandae provident
