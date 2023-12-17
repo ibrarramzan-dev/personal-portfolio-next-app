@@ -14,35 +14,16 @@ export default function page() {
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti,
           voluptates minus quam quos recusandae veritatis sint deleniti
           quibusdam! Deleniti recusandae, neque cum possimus vitae incidunt
-          nostrum atque deserunt porro officiis! Lorem ipsum dolor sit amet
-          consectetur, adipisicing elit. Corrupti, voluptates minus quam quos
-          recusandae veritatis sint deleniti quibusdam! Deleniti recusandae,
-          neque cum possimus vitae incidunt nostrum atque deserunt porro
-          officiis! Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-          Corrupti, voluptates minus quam quos recusandae veritatis sint
-          deleniti quibusdam! Deleniti recusandae, neque cum possimus vitae
-          incidunt nostrum atque deserunt porro officiis! Lorem ipsum dolor sit
-          amet consectetur, adipisicing elit. Corrupti, voluptates minus quam
-          quos recusandae veritatis sint deleniti quibusdam! Deleniti
-          recusandae, neque cum possimus vitae incidunt nostrum atque deserunt
-          porro officiis! Lorem ipsum dolor sit amet consectetur, adipisicing
-          elit. Corrupti, voluptates minus quam quos recusandae veritatis sint
-          deleniti quibusdam! Deleniti recusandae, neque cum possimus vitae
-          incidunt nostrum atque deserunt porro officiis! Lorem ipsum dolor sit
-          amet consectetur, adipisicing elit. Corrupti, voluptates minus quam
-          quos recusandae veritatis sint deleniti quibusdam! Deleniti
-          recusandae, neque cum possimus vitae incidunt nostrum atque deserunt
-          porro officiis! Lorem ipsum dolor sit amet consectetur, adipisicing
-          elit. Corrupti, voluptates minus quam quos recusandae veritatis sint
-          deleniti quibusdam! Deleniti recusandae, neque cum possimus vitae
-          incidunt nostrum atque deserunt porro officiis! Lorem ipsum dolor sit
-          amet consectetur, adipisicing elit. Corrupti, voluptates minus quam
-          quos recusandae veritatis sint deleniti quibusdam! Deleniti
-          recusandae, neque cum possimus vitae incidunt nostrum atque deserunt
-          porro officiis! Lorem ipsum dolor sit amet consectetur, adipisicing
-          elit. Corrupti, voluptates minus quam quos recusandae veritatis sint
-          deleniti quibusdam! Deleniti recusandae, neque cum possimus vitae
-          incidunt nostrum atque deserunt porro officiis!
+          nostrum atque deserunt porro officiis! <br />
+          <br />
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti,
+          voluptates minus quam quos recusandae veritatis sint deleniti
+          quibusdam! Deleniti recusandae, neque cum possimus vitae incidunt
+          nostrum atque deserunt porro officiis! <br />
+          <br />
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti,
+          voluptates minus quam quos recusandae veritatis sint deleniti
+          quibusdam!
         </div>
       </div>
       <Footer />
